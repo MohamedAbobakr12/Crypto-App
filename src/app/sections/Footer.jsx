@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col justify-center w-max mx-auto mt-16 max-lg:mt-12 max-md:mt-10">
-                    <div className="border border-[#222715] w-[200%] -ml-52" />
+                    <div className="border border-[#222715] w-[200%] -ml-52 overflow-x-hidden" />
                     <div className="flex max-lg:flex-col items-center gap-x-32 max-2xl:gap-x-24 max-xl:gap-x-8 max-md:gap-y-6 h-[100px] max-md:mt-4">
                         <p className="text-[#929292] text-lg max-sm:text-sm max-xs:text-xs text-nowrap">&#169; Crypto 128&#8228; All Rights Reserved 2023&#8228; <span className="font-bold">Licensing</span></p>
                         <div className="flex max-lg:flex-wrap max-md:flex-nowrap items-center gap-x-6 max-md:gap-x-4 max-xs:gap-x-2">
