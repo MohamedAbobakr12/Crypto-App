@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center w-max mx-auto border-2 border-white mt-16 max-lg:mt-12 max-md:mt-10">
+                <div className="flex flex-col justify-center w-max mx-auto mt-16 max-lg:mt-12 max-md:mt-10">
                     <div className="border border-[#222715] w-[150%] -ml-32" />
                     <div className="flex max-lg:flex-col items-center gap-x-32 max-2xl:gap-x-24 max-xl:gap-x-8 max-md:gap-y-6 h-[100px] max-md:mt-4">
                         <p className="text-[#929292] text-lg max-sm:text-sm max-xs:text-xs text-nowrap">&#169; Crypto 128&#8228; All Rights Reserved 2023&#8228; <span className="font-bold">Licensing</span></p>
