@@ -1,26 +1,37 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --default-font-family: Poppins, sans-serif;
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+
+  --color-primary: #C9FA49;
+  --color-black-100: #0E0E0E;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.bg-hero {
+  background: radial-gradient(closest-side, #c8fa49, #000000);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 40%;
+  @apply w-[70rem] max-2xl:w-[65rem] max-xl:w-[60rem] max-lg:w-[45rem] max-md:w-[35rem] max-sm:w-[22rem] max-xs:w-[18rem] h-[70rem] max-2xl:h-[65rem] max-xl:h-[60rem] max-lg:h-[45rem] max-md:h-[35rem] max-sm:h-[22rem] max-xs:h-[18rem]
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.bg-pricing {
+  background-image: url("/pricing-back.png");
+  background-repeat: no-repeat;
+  width: 372px;
+  height: 547px;
+  object-fit: contain;
 }
