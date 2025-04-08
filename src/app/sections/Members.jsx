@@ -42,10 +42,11 @@ const Members = () => {
                             <p className="text-[#888888] font-bold mt-2">Software Engineer</p>
                         </div>
                     </div>
-                    <div className="flex max-md:flex-col items-center md:justify-between w-full mt-24 max-lg:mt-16 max-sm:mt-12 px-4">
-                        <div className="flex max-md:items-center flex-col">
-                            <h1 className="text-5xl max-xl:text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-xl text-white max-md:text-center font-bold max-xl:w-[32rem] max-lg:w-[22rem] leading-16 max-xl:leading-12 max-md:leading-10 max-sm:leading-6">Completely leverage other products</h1>
-                            <p className="max-sm:text-sm text-white font-medium max-md:text-center leading-6 w-[30rem] max-xl:w-[26rem] max-lg:w-[22rem] mt-8 max-md:mt-4">Dramatically reintermediate effective applications after high-payoff core competence.Authoritatively optimize collaborative benefits</p>
+
+                    <div className="flex max-md:flex-col w-max items-center md:justify-between mt-24 max-lg:mt-16 max-sm:mt-12 md:px-4">
+                        <div className="flex flex-col max-md:items-center">
+                            <h1 className="text-5xl max-xl:text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-xl text-white max-md:text-center font-bold max-xl:w-[32rem] max-lg:w-[22rem] max-md:w-[18rem] max-sm:w-[16rem] leading-16 max-xl:leading-12 max-md:leading-10 max-sm:leading-6">Completely leverage other products</h1>
+                            <p className="max-sm:text-sm text-white font-medium max-md:text-center leading-6 w-[30rem] max-xl:w-[26rem] max-lg:w-[22rem] max-md:w-[18rem] mt-8 max-md:mt-4">Dramatically reintermediate effective applications after high-payoff core competence.Authoritatively optimize collaborative benefits</p>
                             <Link href={"/"} className="flex justify-center place-items-center w-36 h-12 text-center lg:text-lg text-white hover:text-black hover:bg-primary transition-colors duration-300 border-[3px] border-primary rounded-4xl mt-8">Get Started</Link>
                         </div>
                         <Image src={"/milestone.svg"} width={450} height={100} alt={"milestone image"} className="max-xl:w-[380px] max-sm:w-[300px] max-md:mt-10" />
