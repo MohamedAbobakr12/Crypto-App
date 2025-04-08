@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
                     <div className="relative mt-10 z-10">
                         <div className="absolute w-full h-20 bg-primary opacity-60" />
-                        <div className="relative flex justify-center right-2 w-[110%] h-20 bg-primary rotate-[-4deg] max-md:rotate-[-6deg]">
+                        <div className="relative flex justify-center w-full h-20 bg-primary -skew-y-4 max-md:-skew-y-6">
                             <ul className="flex justify-center items-center gap-x-20 max-xl:gap-x-16 max-lg:gap-x-14 max-md:gap-x-10 max-sm:gap-x-6 max-xs:gap-x-4 mr-4 max-sm:mr-2">
                                 <li className="rotate-[6deg]">
                                     <Image width={150} height={30} src={"/binance.svg"} alt={"binance image"} className="max-lg:w-24 max-md:w-20 max-sm:w-16 max-xs:w-14" />
