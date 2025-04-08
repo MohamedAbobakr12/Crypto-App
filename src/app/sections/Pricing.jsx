@@ -8,8 +8,8 @@ const Pricing = () => {
                     <h1 className="text-5xl max-xl:text-4xl max-lg:text-3xl max-md:text-2xl max-sm:text-xl text-white text-center font-bold">Affordable Pricing</h1>
                     <p className="max-lg:text-sm max-sm:text-xs text-white text-center font-medium w-[36rem] max-xl:w-[32rem] max-lg:w-[30rem] max-md:w-[28rem] max-sm:w-[24rem] max-xs:w-[20rem] leading-7 max-lg:leading-6 max-sm:leading-5 mt-6">A full-stack crypto services platform that works with crypto-native businesses and institutional clients on lending and trading solutions tailored to your needs.</p>
                 </div>
-                <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-x-12 max-xl:gap-y-4 max-md:gap-y-0 w-max mt-12 max-lg:mt-8 max-sm:mt-4">
-                    <div className="bg-pricing max-md:scale-[90%] max-sm:scale-[85%]">
+                <div className="grid place-items-center grid-cols-3 max-xl:grid-cols-1 gap-x-12 max-xl:gap-y-4 max-md:gap-y-0 max-w-max mt-12 max-lg:mt-8 max-sm:mt-4">
+                    <div className="self-center bg-pricing max-md:scale-[90%] max-sm:scale-[85%]">
                         <div className="flex justify-center mt-10">
                             <h1 className="flex gap-x-2 items-end text-primary font-medium"><span className="text-5xl font-bold">FREE</span>Forever</h1>
                         </div>
